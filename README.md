@@ -1,4 +1,4 @@
-# 3 - italy_covid_Analysis-2020/2019
+3 - italy_covid_Analysis-2020/2019
 --------------------
 ![](photo/covid.jpg)
 --------------------
@@ -37,8 +37,9 @@ The dataset contains 248 rows and 4 columns.
 ## Cleaning & Analysis
 
 1- Using the (fillna(0)) function to replace the null/na values between 2020-04-09 TO 2020-04-20 (the bigender of the records), the nan stop at 2020/4/19, so there's two chances for the null values: 
-  •	The data wasn't added 
-  •	There are no new_teasts on those days 
+  - The data wasn't added 
+  - There are no new_teasts on those days 
+  
 So I used fillna(0)
 ![](photo/fillna.png)
 -------------------------
@@ -52,7 +53,7 @@ So I used fillna(0)
 -------------------------
 
 4 - Add the locations to the data 
-![](photo/merg.png)
+![](photo/loc.png)
 -------------------------
 
 5 - merge the two Data Frame
@@ -62,17 +63,25 @@ So I used fillna(0)
 ### We could discover the following things in the dataset:
 
 1 - The highest new_deaths of the date between 2019/12/31 to 2020/9/3?
-![](photo/ A1.png)
+
+![](photo/A1.png)
 ------------------
-2 - The highest new_cases of the date between 2019/12/31 to 2020/9/3
-    -	95273.0
-3 - The number report of cases is 271515 and the number of death reported is 35497
-4 - the overall death rate in itly is 13.00 %
-5 - 5.21% of test is positive
-6 - What is the highest new_deaths and in which month?
-![](photo/ month.png)
+
+ 2 - The highest new_cases of the date between 2019/12/31 to 2020/9/3
+ 
+  -	95273.0
+    
+ 3 - The number report of cases is 271515 and the number of death reported is 35497
+ 
+ 4 - the overall death rate in itly is 13.00 %
+ 
+ 5 - 5.21% of test is positive
+ 
+ 6 - What is the highest new_deaths and in which month?
+ 
+![](photo/month.png)
 -----------------------------
-7 – and more …
+ 7 – and more …
 
 
 # Thank you

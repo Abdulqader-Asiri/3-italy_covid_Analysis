@@ -1,6 +1,6 @@
 # 3 - italy_covid_Analysis-2020/2019
 --------------------
-![](photo/thum.jpg)
+![](photo/covid.jpg)
 --------------------
 ## Introduction
 
@@ -9,8 +9,8 @@ This project is on Italy's covid analysis, The project is to analyze and answer 
 
 ## Problem Statement
 
-The highest new_deaths of the date between 2019/12/31 to 2020/9/3?
-What is the highest new_deaths and in which month?
+- The highest new_deaths of the date between 2019/12/31 to 2020/9/3?
+- What is the highest new_deaths and in which month?
 And more …
 
 ### TOOLS
@@ -48,11 +48,11 @@ So I used fillna(0)
 -------------------------
 
 3 - Change the datatype of (data) from Object to dateTime and extract the (days, weekdays, months, years)
-![](photo/Dtype.png)
+![](photo/month.png)
 -------------------------
 
 4 - Add the locations to the data 
-![](photo/loc.png)
+![](photo/merg.png)
 -------------------------
 
 5 - merge the two Data Frame
